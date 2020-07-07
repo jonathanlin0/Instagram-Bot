@@ -1,10 +1,10 @@
 When inputing the setting, do NOT delete the < and > arrows. Insert your text between the arrows. All action breaks (follow, comment, etc) are configured so whatever number you put as your <break>, that's how many minutes between each action. Reference the README file for which numbers correspond with which categories. Do NOT add '@' for your username.
-Access code (leave blank if not applicable): <adminpass>
-Username: <25kpullups>
-Password: <uzyleslywty>
-Follow break: <3>
-Like break: <3>
-Comment break: <3>
-Unfollow break: <5>
-Category: <1>
-Custom Comment: <Hello people!>
+Access code (leave blank if not applicable): <accesscode>
+Username: <username>
+Password: <password>
+Follow break: <break>
+Like break: <break>
+Comment break: <break>
+Unfollow break: <break>
+Category: <category>
+Custom Comment: <comment>
