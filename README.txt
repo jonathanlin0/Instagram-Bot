@@ -5,10 +5,10 @@ When you open up the program, the program will say "not responding", but that's 
 
 
 Needed if you want to run the raw .py file:
-1. pip install selenium
-2. pip install colorama
-3. pip install InstagramAPI
-4. Download the correct chromedriver from https://chromedriver.chromium.org/ and put the chrome.exe file into the same folder in which the bot is running from
+1. pip install colorama
+2. pip install InstagramAPI
+
+*Note: depending on your OS and/or python version, you may have to do "pip3 install <module>" instead of just "pip install <module".
 
 
 Needed files that have to be in the same file as ig-bot.py or ig-bot.exe for running the .exe file:
@@ -35,5 +35,8 @@ Category key:
  [9] Gaming
 [10] Minecraft
 [11] Cars
+
+How to close the program:
+Click the console (the window with the black background and white text) and make sure that a small white rectangle appeared in the console where you clicked. Then, on your keyboard, press ctrl+c like you're copying something. You cannot just click the red X button on the top right of the program window, you have to do ctrl+c in the console. The command ctrl+c is the clear function for the language in which the bot is coded in. After pressing ctrl+c, the console and program window should close.
 
 Generated hashtags will appear here:
