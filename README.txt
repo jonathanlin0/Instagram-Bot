@@ -1,7 +1,9 @@
 Contact: https://lnky.in/glasstea
 
+**MAKE SURE ALL THE FILES ARE IN ONE FOLDER**
+Keep the README.txt, config.txt, etc files all in the same folder as the ig-bot.exe file. If not, there will be errors and you will be unable to run the program.
 
-When you open up the program, the program will say "not responding", but that's ok: the program is loading everything. The loading process may take up to to minutes. You will find the generated hashtags at the bottom of this file. When you press the pause button, click a task to begin again.
+When you open up the program, the program WILL say "not responding", but that's ok: the program is loading everything. The loading process may take up to to minutes. You will find the generated hashtags at the bottom of this file. When you press the pause button, click a task to begin again.
 
 
 Needed if you want to run the raw .py file:
@@ -12,11 +14,10 @@ Needed if you want to run the raw .py file:
 
 
 Needed files that have to be in the same file as ig-bot.py or ig-bot.exe for running the .exe file:
-1. __init__.py (to prevent configuration and/or execution errors)
-2. FreeSansBold.ttf (in case python cannot find the text file in your python directory)
-3. config.txt (for bot settings)
-4. README.txt (this file)
-5. ig-bot.py or ig-bot.exe (whichever one you purchased)
+1. FreeSansBold.ttf (in case python cannot find the text file in your python directory)
+2. config.txt (for bot settings)
+3. README.txt (this file)
+4. ig-bot.py or ig-bot.exe (whichever one you purchased)
 
 
 How to convert this ig-bot.py into an exe file:
@@ -37,6 +38,6 @@ Category key:
 [11] Cars
 
 How to close the program:
-Click the console (the window with the black background and white text) and make sure that a small white rectangle appeared in the console where you clicked. Then, on your keyboard, press ctrl+c like you're copying something. You cannot just click the red X button on the top right of the program window, you have to do ctrl+c in the console. The command ctrl+c is the clear function for the language in which the bot is coded in. After pressing ctrl+c, the console and program window should close.
+Click the console (the window with the black background and white text) and make sure that a small white rectangle appeared in the console where you clicked. Then, on your keyboard, press ctrl+c like you're copying something. You cannot just click the red X button on the top right of the program window, you have to do ctrl+c in the console. The command ctrl+c is the clear function for python. After pressing ctrl+c, the console and program window should close.
 
 Generated hashtags will appear here:
