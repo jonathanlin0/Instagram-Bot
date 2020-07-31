@@ -26,6 +26,9 @@ Needed files that have to be in the same file as ig-bot.py or ig-bot.exe for run
 5. ig-bot.py or ig-bot.exe (whichever one you purchased)
 6. icon.ico
 
+-----------------------------------
+The info below ONLY REGARDS customers who BOUGHT THE SOURCE CODE, IGNORE if you only bought the bot.
+-----------------------------------
 
 How to convert this ig-bot.py into an exe file:
 Open up command and navigate to the folder holding the current .py file. Then do "pip install pyinstaller". Afterward, do "pyinstaller ig-bot.py --onefile". This step may take a few minutes depending on the speed of your computer. Afterward, there should be a bunch of new folders. If you navigate to the folder called "dist", you will find your ig-bot.exe file.
