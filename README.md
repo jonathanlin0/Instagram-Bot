@@ -28,7 +28,7 @@ Needed files that have to be in the same file as ig-bot.py or ig-bot.exe for run
 
 When you open up the program, the program will load for up to a minute (depending on the speed of your computer). During this time, the software is loading all the required data to work. The generated hashtags will appear in the "generated hashtags.txt" file. Click the pause button to pause ALL actions. Press the button again to resume all actions (this button is a toggle).
 
-### Notes for customers who bough the *source code* along with the bot
+### Notes for customers who bought the *source code* along with the bot
 ##### Ignore if you only bought the bot
 
 How to convert this ig-bot.py into an exe file:
