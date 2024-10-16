@@ -361,7 +361,7 @@ def load():
             #outt.append(media_id)
             outt.append({'media_id':media_id, 'username':username})
         except:
-            asdfafdslkjafdsafdsadsf = 'asdffdasfasd'
+            pass
     out['3'] = outt
 
     sleeep(2)
@@ -534,7 +534,7 @@ def main_loop():
                     if post_id not in auto_commented_posts:
                         posts.append(post_id)
                 except:
-                    asdf = 2
+                    pass
 
             for post in posts:
                 sleeep(2)
