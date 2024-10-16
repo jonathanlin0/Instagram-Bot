@@ -5,6 +5,12 @@ from PIL import Image, ImageDraw
 import numpy as np
 import json
 
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+USERNAME = os.getenv('USERNAME')
+
 # Function to parse VTT file
 def parse_vtt(vtt_file, offset=0):
     subtitles = []
@@ -98,7 +104,7 @@ rounded_rectangle_np = np.array(rounded_rectangle_image)
 rounded_rectangle_clip = ImageClip(rounded_rectangle_np).set_duration(intro_audio_duration)
 intro_clip = CompositeVideoClip([rounded_rectangle_clip.set_position('center'), intro_text_clip.set_position('center')])
 
-username_text_clip = (TextClip("@le_spongebob", fontsize=55, color='black', font='Impact')
+username_text_clip = (TextClip(f"@{USERNAME}", fontsize=55, color='black', font='Impact')
                 .set_position(('center', int(video.h * 0.6)))
                 .set_duration(video.duration))
 
