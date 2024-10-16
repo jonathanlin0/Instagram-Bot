@@ -31,7 +31,7 @@ if __name__ == "__main__":
         session_file="session.json",
         video_file="video.mp4",
         thumbnail_file="thumbnail.png",
-        caption_file="reddit_title.txt",
+        caption_file="story_title.txt",
         hashtags_file="hashtags.txt"
     )
     uploader.login_user()
@@ -56,7 +56,7 @@ if __name__ == "__main__":
             video_file="bg_vid.mp4",
             audio_file="output_audio.mp3",
             subtitle_file="output_captions.vtt",
-            title_file="reddit_title.txt",
+            title_file="story_title.txt",
             replacements_file="replacements.json",
             output_video="video.mp4",
             thumbnail_file="thumbnail.png"

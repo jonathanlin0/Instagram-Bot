@@ -26,7 +26,7 @@ class AudioSubtitleGenerator:
                 story = first_story["text"]
             
             # write to appropriate files
-            with open("reddit_title.txt", "w") as f:
+            with open("story_title.txt", "w") as f:
                 f.write(title)
             with open("story.txt", "w") as f:
                 f.write(story)
@@ -79,7 +79,7 @@ class AudioSubtitleGenerator:
 
         # Process the title. this is done to see how long the title audio is
         text = ""
-        with open("reddit_title.txt", "r") as f:
+        with open("story_title.txt", "r") as f:
             text += f.read()
         asyncio.run(self.generate_audio_and_subtitles(text))
 
